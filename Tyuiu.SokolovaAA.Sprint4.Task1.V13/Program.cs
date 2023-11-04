@@ -29,7 +29,7 @@ namespace Tyuiu.SokolovaAA.Sprint4.Task1.V13
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.Write("Введите длину массива: ");
+            Console.Write("Введите длину массива: "); 
             int len = Convert.ToInt32(Console.ReadLine());
 
             int[] numsArray = new int[len];
